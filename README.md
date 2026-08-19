@@ -1,6 +1,6 @@
 # Description
 
-This repository is based on the demo code of a bug found in Spring Integration IP v6.5.7 (`org.springframework.integration:spring-integration-ip:6.5.7`). The original demo code is archived in the repository https://github.com/emuller84/spring-integration-ip-bug-demo-20260312 . The goal is to keep updating this project with new Spring Integration IP releases to test for similar bugs. Git tags will be created for each tested version.
+This repository is based on the demo code of a bug found in Spring Integration IP v6.5.7 (`org.springframework.integration:spring-integration-ip:6.5.7`). The original demo code is archived in the repository https://github.com/emuller84/spring-integration-ip-bug-demo-20260312 . The goal is to keep updating this project with new Spring Integration IP releases to test for similar bugs. Git tags and/or branches will be created for each tested version.
 
 # Contents of this repository
 
@@ -42,4 +42,4 @@ And a successful response:
    - Import the [`spring-integration-ip-bug-regression-test.postman_collection.json`](spring-integration-ip-bug-regression-test.postman_collection.json) collection
    - Go to the "Overview" page of the imported collection -> "Runs" -> "Performance" -> "Run" -> "Performance" and run
      - A "fixed" load profile and "20" virtual users should work
-     - Let it run for some minutes to incresase the probabilities of finding an error
+     - Let it run for some minutes to increase the probabilities of finding an error
