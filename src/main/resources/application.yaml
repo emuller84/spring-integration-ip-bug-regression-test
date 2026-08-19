@@ -1,0 +1,33 @@
+server:
+  port: 8014
+  servlet:
+    context-path: "/v0"
+
+spring:
+  application:
+    name: "api-app"
+  output:
+    ansi:
+      enabled: ALWAYS
+
+# Logging conf
+logging:
+  file:
+    name: "logs/spring-app-log.log"
+  level:
+    org:
+      springframework:
+        integration:
+          ip: TRACE
+
+
+device-service:
+  enable-second-connection: true
+  tcp:
+    host: "127.0.0.1"
+    port: 1500
+    failoverRefreshSharedInterval: "300000"
+    timeout:
+      connect: 2000
+      remoteGateway: 2000
+      requestGateway: 2000
